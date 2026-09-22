@@ -1,0 +1,69 @@
+# ============================================================================
+# REQUISITOS DE LIBRERIAS - Curso de IA para Ingenieria Civil y Ambiental
+# Universidad de los Andes
+# ============================================================================
+# 
+# [!] IMPORTANTE: Este archivo esta actualizado para Python 3.11+
+# 
+# Si tienes problemas con TensorFlow, consulta SOLUCION_TENSORFLOW.md
+#
+# USO: pip install -r requirements.txt
+# ACTUALIZACION: pip install --upgrade -r requirements.txt
+#
+# ============================================================================
+
+# ANALISIS Y MANIPULACION DE DATOS
+# ============================================================================
+numpy>=1.24.0          # Operaciones numericas y arreglos n-dimensionales
+pandas>=2.0.0          # Manipulacion, analisis y lectura de datos tabulares
+scipy>=1.11.0          # Funciones cientificas y herramientas matematicas
+
+# VISUALIZACION DE DATOS
+# ============================================================================
+matplotlib>=3.7.0      # Graficos y visualizaciones generales
+seaborn>=0.12.0        # Visualizaciones estadisticas avanzadas
+plotly>=5.14.0         # Graficos interactivos (opcional pero recomendado)
+
+# MACHINE LEARNING Y MODELADO ESTADISTICO
+# ============================================================================
+scikit-learn>=1.3.0    # Modelos de ML: regresion, clasificacion, clustering
+statsmodels>=0.14.0    # Analisis estadistico avanzado y modelos econometricos
+
+# DEEP LEARNING - TENSORFLOW
+# ============================================================================
+tensorflow>=2.15.0     # Redes neuronales profundas con Keras
+
+# DEEP LEARNING - PYTORCH (ALTERNATIVA O COMPLEMENTO)
+# ============================================================================
+# Descomenta si necesitas PyTorch
+# torch>=1.9.0
+# torchvision>=0.10.0   # Herramientas para vision por computadora
+# torchaudio>=0.9.0     # Herramientas para procesamiento de audio
+
+# CALCULO SIMBOLICO
+# ============================================================================
+sympy>=1.12            # Calculo simbolico, derivadas, integrales y ecuaciones
+
+# ANALISIS DE REDES Y GEOSPATIAL
+# ============================================================================
+osmnx>=1.9.0           # Analisis de redes de transporte desde OpenStreetMap
+networkx>=3.1          # Analisis de grafos y redes
+geopandas>=0.14.0      # Analisis geoespacial (si se necesita)
+
+# JUPYTER Y KERNELS
+# ============================================================================
+jupyter>=1.0.0         # Entorno de notebooks interactivos
+ipython>=7.0.0         # Shell interactivo mejorado
+ipykernel>=6.0.0       # Kernel de IPython para Jupyter
+
+# UTILIDADES ADICIONALES
+# ============================================================================
+scikit-image>=0.17.0   # Procesamiento de imagenes
+pillow>=8.0.0          # Manejo de imagenes
+requests>=2.25.0       # Solicitudes HTTP
+python-dotenv>=0.19.0  # Gestion de variables de entorno
+
+# OPTIMIZACION Y CONFIGURACION
+# ============================================================================
+pip>=21.0.0            # Gestor de paquetes (actualizacion recomendada)
+setuptools>=50.0.0     # Herramientas de construccion
